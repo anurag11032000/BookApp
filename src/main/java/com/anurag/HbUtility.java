@@ -18,9 +18,9 @@ public class HbUtility {
 		
 
 		p.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-		p.put(Environment.URL, "jdbc:mysql://localhost:3306/bookdb?createDatabaseIfNotExist=true");
+		p.put(Environment.URL, "jdbc:mysql://root:qaAGSmjOacHuqIRNIDDtQhLobHtEkoyE@centerbeam.proxy.rlwy.net:14816/railway?createDatabaseIfNotExist=true");
 		p.put(Environment.USER, "root");
-		p.put(Environment.PASS, "Anurag123#");
+		p.put(Environment.PASS, "qaAGSmjOacHuqIRNIDDtQhLobHtEkoyE");
 		p.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
 		p.put(Environment.HBM2DDL_AUTO, "update");
 		
@@ -32,3 +32,4 @@ public class HbUtility {
 		return cfg.buildSessionFactory();
 	}
 }
+
